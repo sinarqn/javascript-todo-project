@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+    <title>Sina Todo List</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+    <header class="main-header">Todo List for you</header>
+    <div class="todo-form-container">
+    <form class="todo-form">
+        <input type="text" class="todo-input" placeholder="write your todo...">
+        <button class="todo-button"><i class="fas fa-plus"></i></button>
+    </form>
+        <div class="select">
+        <select name="todos" class="filter-todo">
+            <option value="all">All</option>
+            <option value="completed">Completed</option>
+            <option value="uncompleted">Uncompleted</option>
+        </select>
+        </div>
+    </div>
+    <div class="todo-container">
+        <ul class="todo-list"></ul>
+    </div>
+</div>
+<script src="app.js"></script>
+</body>
+</html>
