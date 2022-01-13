@@ -17,6 +17,12 @@ filterOption.addEventListener('click', filterTodo);
 function addTodo(event){
     //Prevent Form from Submitting
     event.preventDefault();
+    //check if todo input is empty
+    if(todoInput.value == ''){
+        alert('please fill out the input!!!')
+        //if empty exit the function
+        return;
+    }
     //Todo DIV
     const todoDiv = document.createElement("div");
     todoDiv.classList.add("todo");

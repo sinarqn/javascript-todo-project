@@ -16,6 +16,9 @@ body{
     min-width: 100vw;
     min-height: 100vh;
 }
+.text-danger{
+    color:#e31748;
+}
 .container{
     max-width: 900px;
     margin: auto;
